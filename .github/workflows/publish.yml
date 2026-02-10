@@ -1,0 +1,16 @@
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  homebrew:
+    name: Publish "In Bed By 7pm" Zed Extension
+    runs-on: ubuntu-latest
+    steps:
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: inbedby7pm
+          push-to: ChocolateNao/extensions
+        env:
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
