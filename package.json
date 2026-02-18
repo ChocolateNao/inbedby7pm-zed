@@ -1,0 +1,13 @@
+{
+  "name": "inbedby7pm-zed",
+  "version": "0.1.0",
+  "description": "A color theme for non-night owls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrey Loginov <andrey12q112@gmail.com> (https://choconao.me)",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.2"
+}
