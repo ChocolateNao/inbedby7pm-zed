@@ -2,14 +2,11 @@
 
 A port of a popular [theme](https://marketplace.visualstudio.com/items?itemName=sdras.inbedby7pm) for [Zed](https://zed.dev/) with some minor adjustments.
 
-> [!NOTE]
-> The port also includes an italic variant
-
 <details>
 <summary>Preview</summary>
 Icons come from <a href="https://github.com/catppuccin/zed-icons"><i>Catppuccin Icons</i></a> extension
 
-<img src="assets/showcase.png"/>
+<img src="assets/inbedby7pm-showcase.png"/>
 </details>
 
 ## Usage
@@ -27,19 +24,17 @@ Icons come from <a href="https://github.com/catppuccin/zed-icons"><i>Catppuccin 
 3. Search for the __In Bed By 7pm__ extension and install it
 
 > [!TIP]
-> After installation, a popup with avaliable variants will appear. You can switch to another variant at any time by entering _theme selector: toggle_ in the command palette and selecting the preferred variant of __In Bed By 7pm__ theme in the dropdown
+> After installation, you can switch to another theme at any time by entering _theme selector: toggle_ in the command palette and selecting the new theme in the dropdown
 
 ## Development
 
-Variants are developed in a separate file with the same top level `name` field.
+Variants may be developed in a separate file with the same top level `name` field.
 
-To start off, simply clone the repository and install husky hooks.
-
-<!-- Aside from the theme itself, the repository is packed with a script called `italize.js` that will automatically create an italized variant of the theme. You don't have to call it manually since there's a git hook for that. -->
+To start off, simply clone the repository. The theme is at `themes` folder. For local development, there is a cool feature called `Install Dev Extension` in `zed: extensions` tab, although at the moment it does not support hot-reload, you will tave to manually click `Rebuild` button every time you make a change. It is also advised to check logs if something does not work.
 
 ```bash
-# install hooks
-npm i
+# check logs
+tail -f /home/[username]/.local/share/zed/logs/Zed.log
 
 # commit as you normally would
 git add .
