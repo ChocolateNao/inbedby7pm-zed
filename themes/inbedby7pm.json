@@ -398,7 +398,7 @@
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#9dd2e8",
+            "color": "#be8fda",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -427,7 +427,7 @@
             "font_weight": null
           },
           "string": {
-            "color": "#8ec3f9",
+            "color": "#e2c3b3",
             "background_color": null,
             "font_style": null,
             "font_weight": null
