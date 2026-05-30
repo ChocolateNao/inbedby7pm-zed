@@ -142,7 +142,7 @@
         "ignored.background": null,
         "ignored.border": "#666a79",
         "info": "#64B5F6",
-        "info.background": null,
+        "info.background": "#374d5e",
         "info.border": "#666a79",
         "modified": "#e2c08d",
         "modified.background": "#292c3d",
