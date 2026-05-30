@@ -33,7 +33,7 @@ Variants may be developed in a separate file with the same top level `name` fiel
 To start off, simply clone the repository. The theme is at `themes` folder. For local development, there is a cool feature called `Install Dev Extension` in `zed: extensions` tab, although at the moment it does not support hot-reload, you will tave to manually click `Rebuild` button every time you make a change. It is also advised to check logs if something does not work.
 
 ```bash
-# check logs
+# check Zed logs
 tail -f /home/[username]/.local/share/zed/logs/Zed.log
 
 # commit as you normally would
