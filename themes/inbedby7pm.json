@@ -7,7 +7,13 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
-        "accents": [],
+        "accents": [
+          "#9dd2e8",
+          "#a5ffbd",
+          "#f88070",
+          "#ffeb95",
+          "#be8fda"
+        ],
         "border": "#1a1c27",
         "border.variant": "#746f77",
         "border.focused": "#1a1c27",
