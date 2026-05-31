@@ -19,7 +19,7 @@
         "background": "#292c3d",
         "element.background": "#292c3d",
         "element.selection_background": "#1b90dd4d",
-        "element.hover": "#292c3d",
+        "element.hover": "#202431",
         "element.active": "#202431",
         "element.selected": "#2E3250",
         "element.disabled": null,
@@ -164,7 +164,7 @@
         "warning.border": "#666a79",
         "players": [
           {
-            "cursor": "#234d70",
+            "cursor": "#cccccc",
             "background": "#1b90dd4d",
             "selection": "#1b90dd4d"
           },
